@@ -42,8 +42,8 @@ After this command is executed, the " backup.sql file will be generated.
 
 `psql --host=<DB_ADDRES> --port=<DB_PORT> --username=<DB_USER> -- dbname=<DB_NAME> --file=<BACKUP_DIR>/backup.sql`
 
-- DB_ADDRESS indicates the IP address of the RDS DB instance.
-- DB_PORT indicates the RDS DB instance port.
+- DB_ADDRESS indicates the IP address of the DB instance.
+- DB_PORT indicates the  DB instance port.
 - DB_USER indicates the database username.
 - DB_NAME indicates the name of the database to which data is to be imported. Ensure that the database exists. 
 - BACKUP_DIR indicates the directory where the backup.sql file is stored. 
